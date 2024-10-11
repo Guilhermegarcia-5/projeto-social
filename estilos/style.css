@@ -32,3 +32,32 @@ main{
     background-image: url('imagens/frame-iphone.png');
     background-repeat: no-repeat;
 }
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 267.5px;
+}
+
+#redessociais{
+    text-align: right;
+}
+
+#redessociais img{
+    position: relative;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    top: 10vh;
+    box-shadow: 2px 2px 5px black;
+}
+
+#redessociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    box-sizing: border-box;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.5s, border 0.3s;
+}
